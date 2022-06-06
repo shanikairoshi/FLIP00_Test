@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=latex 2021.5.21)  6 JUN 2022 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=latex 2021.5.21)  6 JUN 2022 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1935,7 +1935,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  50509 strings out of 478995
  1083216 string characters out of 5858210
- 1746494 words of memory out of 5000000
+ 1746501 words of memory out of 5000000
  66921 multiletter control sequences out of 15000+600000
  438404 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
