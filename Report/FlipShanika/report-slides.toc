@@ -3,8 +3,7 @@
 \pdcontentsline{1}{6}{Challenges}
 \pdcontentsline{0}{8}{Challenges}
 \pdcontentsline{1}{9}{Proposed Model}
-\pdcontentsline{0}{11}{Step One -Preprocessing}
-\pdcontentsline{0}{12}{Step Two - Model training}
-\pdcontentsline{0}{13}{Step Three - Model Prediction and Evaluation}
+\pdcontentsline{0}{13}{ Model Prediction and Evaluation}
+\pdcontentsline{0}{14}{ Model Prediction and Evaluation}
 \pdcontentsline{1}{15}{Evaluation Results}
 \pdcontentsline{1}{17}{Conclusion}

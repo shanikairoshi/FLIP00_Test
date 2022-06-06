@@ -279,25 +279,6 @@ linear regression cause by bias and/or variance of the variables.
 }
 
 %%==========================================================================================
-\begin{note}
-Based on the above example,
-I will compare the differences
-between outlying aspects mining and outlier detection.
-
-Outlying aspects mining aims to
-explain the distinctive aspects of the query object.
-The query object may or may not be an outlier.
-In contrast,
-Outlier detection aims to discover all possible
-outlying objects in the dataset.
-Without explaining how and why they are different.
-
-Let's go back to the NBA example,
-in that example,
-the output of the outlying aspects mining may be
-a combination of four features,
-but the output of the outlier detection may be any of those five players.
-\end{note}
 %%==========================================================================================
 
 \end{slide}
@@ -314,67 +295,42 @@ but the output of the outlier detection may be any of those five players.
 
 %%==========================================================================================
 %%
-\begin{slide}[toc=,bm=]{}
+\begin{slide}[toc=,bm=]{Challenges}
 \twocolumn
 {
-Group Outlying Aspects Mining
+multicollinearity
 \begin{itemize}
 \item
 \smallskip
-Focus on differences between \textcolor{orange}{groups}.
+Focus on correlation between \textcolor{orange}{predictors}.
 
-\item
-\smallskip
-\textcolor{orange}{Multiple} points.
-\medskip
 \end{itemize}
-\vspace{0.75cm}
+%\vspace{0.75cm}
 %\vspace{0.1cm}
 \begin{figure}
   \centering
   \selectcolormodel{rgb}
-  \missingfigure{Testing a long text string.}
-  %\includegraphics[width=0.6\textwidth]{figures//example-basketball-projection.eps}\\
-  \caption{Group Outlying Aspects Target}\label{fig:GroupOutAspect-target}
+ \includegraphics[width=1.0\linewidth,height=0.8\linewidth]{graphics//Fig_heatmap.eps}
+  \caption{Framework of Model} \label{Heatmap}
 \end{figure}
 }
 {
-Outlying Aspects Mining
-\begin{itemize}
-\item
-Concentrates on differences between \textcolor{orange}{objects}.
-
-\item
-\textcolor{orange}{One} point.
-\end{itemize}
-\bigskip
-\begin{figure}
-  \centering
-  \selectcolormodel{rgb}
-  \missingfigure{Testing a long text string.}
-%  \includegraphics[width=0.5\textwidth]{figures//OutAspect_target.eps}\\
-  \caption{Outlying Aspects Target}\label{fig:OutAspect-target}
-\end{figure}
+    
+    Reasons for \textcolor{orange}{multicollinearity} in predictors.
+    
+    \begin{itemize}
+    \item
+    Inaccurate use of different types of variables.
+    \item
+    Poor selection of questions or null hypothesis.
+    \item Variable repetition.
+    \item A dependent variable selection.
+    \item High correlation.
+    \item Use of dummy variables.
+   
+    \end{itemize}
 }
 
-%%==========================================================================================
-\begin{note}
-In this research paper,
-we proposed the group outlying aspects mining.
-Now,
-let me summarize the differences between group outlying aspects mining and outlying aspects mining.
-
-Group outlying aspects mining mainly focuses on the differences between groups.
-But outlying aspects mining mainly concentrates on the differences between objects.
-The target of group outlying aspects mining can be seen as many points.
-While the target of outlying aspects mining can be regarded as one point.
-
-In the NBA example,
-group outlying aspects mining focuses on the advantages
-or disadvantages of one team,
-however,
-outlying aspects mining focuses on the advantages or disadvantages of one player.
-\end{note}
 %%==========================================================================================
 
 \end{slide}
@@ -386,21 +342,19 @@ outlying aspects mining focuses on the advantages or disadvantages of one player
 %%
 \begin{slide}{Challenges}
 %Challenges (1)
-\begin{itemize}
-\item
-Reasons for \textcolor{orange}{multicollinearity} in predictors.
+
+Fixing \textcolor{orange}{multicollinearity}
 
 \begin{itemize}
 \item
-Inaccurate use of different types of variables.
+Obtain more data.
 \item
-Poor selection of questions or null hypothesis.
-\item Variable repetition.
-\item A dependent variable selection.
-\item High correlation.
-\item Use of dummy variables.
+Utilize a ridge regression.
+\item Utilize a partial squares regression
+\item Removing a variable.
+\item Do nothing.
 \end{itemize}
-\end{itemize}
+
 
 %%==========================================================================================
 %%==========================================================================================
@@ -411,16 +365,6 @@ Poor selection of questions or null hypothesis.
 
 
 %%==========================================================================================
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-
-%%
-%%==========================================================================================
-
 
 \section{Proposed Model}
 
@@ -431,102 +375,17 @@ Poor selection of questions or null hypothesis.
 
 Framework of Proposed Model:
 
-\bigskip
+%\begin{center}
+  %\includegraphics[width=1.0\linewidth,height=.4\linewidth]{C:/Users/lenovo/Desktop/slide picture/fare.eps}\
+   % {image1:fare frequency}\
+%\end{table}
 
 \begin{figure}
   \centering
   \selectcolormodel{rgb}
- %\includegraphics[width=0.55\textwidth]{FlipShanika/graphics/ModelFigure/Air-Prediction.eps}
-  \caption{Framework of Proposed Model} \label{framework}
+ \includegraphics[width=1.0\linewidth,height=.4\linewidth]{graphics//Air Prediction.eps}
+  \caption{Framework of Model} \label{framework}
 \end{figure}
-
-%%==========================================================================================
-\begin{note}
-In order to tackle the above issues,
-GOAM algorithm is involved.
-
-Let's have a look at the framework of this algorithm.
-The first step is to use the histogram to represent the group features
-based on all individuals in the group.
-
-Following that,
-we utilize the earth mover distances to measure the
-outlying degree between groups.
-This is the second step:
-outlying degree scoring.
-
-The last step is to identify the outlying aspects.
-
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}{Step One -Preprocessing}
-
-
-\begin{figure}[htbp]
-    \centering
-    \subfigure[$f_1$]{
-        \selectcolormodel{rgb}
-        \missingfigure[figwidth=5.5cm]{Test.}
-        %\includegraphics[width=0.25\textwidth]{figures//frequency-distribution-feature1.eps}
-        \label{fig:fre-dis-f1}
-    }
-    \subfigure[$f_2$]{
-        \selectcolormodel{rgb}
-        \missingfigure[figwidth=5.5cm]{Test.}
-        \label{fig:fre-dis-f2}
-    }
-    \subfigure[$f_3$]{
-        \selectcolormodel{rgb}
-        \missingfigure[figwidth=5.5cm]{Test.}
-        \label{fig:fre-dis-f3}
-    }
-    \caption{Histogram of $G_q$ on three features}
-    \label{fig:fre-dis-each-feature}
-\end{figure}
-
-%%==========================================================================================
-
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}{Step Two - Model training}
-%Step Two - Outlying Degree Scoring
-\begin{itemize}
-\item
-Calculate Earth Mover Distance
-
-\begin{itemize}
-\item
-Represent one feature among different groups
-
-\item
-Purpose: calculate the minimum mean distance
-\end{itemize}
-
-\begin{figure}
-   \selectcolormodel{rgb}
-   \missingfigure{Make a sketch of the structure of a trebuchet.}
-%  \includegraphics[width=0.4\textwidth]{figures//example3.eps}\\
-   \caption{EMD of one feature}\label{EMD}
-\end{figure}
-\end{itemize}
-
-
-%%==========================================================================================
 
 \end{slide}
 %%
@@ -535,37 +394,92 @@ Purpose: calculate the minimum mean distance
 
 %%==========================================================================================
 
-%%
 %%==========================================================================================
 
-
-%%==========================================================================================
 %%
-\begin{slide}{Step Three - Model Prediction and Evaluation}
+\begin{slide}[toc=,bm=]{Preprocessing and Model training}
+  \twocolumn
+  {
+  Bias and Variance
+
+  %\vspace{0.75cm}
+  %\vspace{0.1cm}
+  \begin{figure}
+    \selectcolormodel{rgb}
+    \includegraphics[width=0.8\linewidth,height=0.8\linewidth]{graphics//Bias_and_VrarianceAll.eps}
+    \caption{Bias and VAriance} \label{Bias}
+ \end{figure}
+  }
+  {
+      
+      Reasons for \textcolor{orange}{multicollinearity} in predictors.
+      
+      \begin{itemize}
+      \item Remove Duplicates.
+      \item Remove unwanted columns.
+      \item Scale for data consistency.
+      \item Remove Outliers.
+      \end{itemize}
+  }
+  
+
+  
+  \end{slide}
+
+
+%%
+\begin{slide}[toc=,bm=]{Preprocessing and Model training}
+  
+  {
+ 
+
+  %\vspace{0.75cm}
+  %\vspace{0.1cm}
+
+  }
+  {
+    \begin{figure}
+      \selectcolormodel{rgb}
+      \includegraphics[width=1.0\linewidth,height=0.4\linewidth]{graphics//Fig_Boxplot.eps}
+      \caption{Response data distribution and Outlier Detection.} \label{Bias}
+   \end{figure}
+  }
+  
+
+  
+  \end{slide}
+%%============================================================================
+
+\begin{slide}{ Model Prediction and Evaluation}
+  %Step Three - Outlying Aspects Identification
+  \begin{itemize}
+  \item
+  Relationships between predictors and response variables over time.
+  
+  \end{itemize}
+  
+  
+  \begin{figure}
+    \selectcolormodel{rgb}
+    \includegraphics[width=0.9\linewidth,height=0.5\linewidth]{graphics//Fig_Correlations.eps}
+    \caption{Relationships over the time} \label{Bias}
+  \end{figure}
+  \end{slide}
+%%
+\begin{slide}{ Model Prediction and Evaluation}
 %Step Three - Outlying Aspects Identification
 \begin{itemize}
 \item
-Identify group outlying aspects mining based on the value
-of outlying degree.
+Determination of coefficient.
 
-\item
-The greater the outlying degree is,
-the more likely it is group outlying aspect.
 \end{itemize}
 
-%%==========================================================================================
-\begin{note}
-Next,
-let me talk about the third step.
 
-In this step,
-we identify the group outlying aspects according to the value of the outlying degree.
-
-If a feature's outlying degree is greater,
-it is more likely to be a group outlying aspect.
-\end{note}
-%%==========================================================================================
-
+\begin{figure}
+  \selectcolormodel{rgb}
+  \includegraphics[width=0.9\linewidth,height=0.5\linewidth]{graphics//Evaluation.eps}
+  \caption{performance Evaluation} \label{Bias}
+\end{figure}
 \end{slide}
 %%
 %%=================================================
@@ -574,30 +488,8 @@ it is more likely to be a group outlying aspect.
 
 
 %%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{Illustration}
 
 
-
-%%==========================================================================================
-\begin{note}
-According to the outlying degree scoring function,
-we can get the outlying degree of each possible subspace.
-
-So that we can filter out the candidate subspaces.
-Next is to sort the candidate subspaces in
-descending order and then we pick out the top-k subspaces.
-
-The result is as shown in table $4$.
-As a result,
-the top-1 group outlying aspect is \{$F_1$\}.
-The top-2 group outlying aspects include
-trivial feature \{$F_1$\},
-and non-trivial subspace \{$F_3, F_4$\}.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
 %%
 %%==========================================================================================
 
@@ -608,23 +500,22 @@ and non-trivial subspace \{$F_3, F_4$\}.
 \begin{slide}[toc=,bm=]{Evaluation}
 \begin{figure}[htbp]
   \centering
-  \subfigure[$f_1$]{
+  \subfigure[Carbon_monoxide_prediction]{
       \selectcolormodel{rgb}
-      \missingfigure[figwidth=5.5cm]{Test.}
-      %\includegraphics[width=0.25\textwidth]{figures//frequency-distribution-feature1.eps}
+      \includegraphics[width=0.3\linewidth,height=.3\linewidth]{graphics//Fig_CM_ModelAccuracy.eps}
       \label{fig:fre-dis-f1}
   }
-  \subfigure[$f_2$]{
+  \subfigure[Benzene_Prediction]{
       \selectcolormodel{rgb}
-      \missingfigure[figwidth=5.5cm]{Test.}
+      \includegraphics[width=0.3\linewidth,height=.3\linewidth]{graphics//Fig_BenzeneModelBehavior.eps}
       \label{fig:fre-dis-f2}
   }
-  \subfigure[$f_3$]{
+  \subfigure[Nitrous Oxide Prediction]{
       \selectcolormodel{rgb}
-      \missingfigure[figwidth=5.5cm]{Test.}
+      \includegraphics[width=0.3\linewidth,height=.3\linewidth]{graphics//Fig_NOxModelBehavior.eps}
       \label{fig:fre-dis-f3}
   }
-  \caption{Histogram of $G_q$ on three features}
+  \caption{Histogram of three test feature predictions}
   \label{fig:fre-dis-each-feature}
 \end{figure}
 

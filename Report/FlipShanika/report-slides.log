@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=latex 2021.5.21)  6 JUN 2022 11:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=latex 2021.5.21)  6 JUN 2022 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1616,25 +1616,13 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 \pixel=\skip106
  (./report-slides.aux
 
-LaTeX Warning: Label `fig:fre-dis-f1' multiply defined.
+LaTeX Warning: Label `Bias' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:fre-dis-f1' multiply defined.
+LaTeX Warning: Label `Bias' multiply defined.
 
 
-LaTeX Warning: Label `fig:fre-dis-f2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:fre-dis-f2' multiply defined.
-
-
-LaTeX Warning: Label `fig:fre-dis-f3' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:fre-dis-f3' multiply defined.
-
-
-LaTeX Warning: Label `fig:fre-dis-each-feature' multiply defined.
+LaTeX Warning: Label `Bias' multiply defined.
 
 )
 \openout1 = `report-slides.aux'.
@@ -1800,89 +1788,65 @@ LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 19.28804pt on input line 189.
  [4] [5] [6] [7]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 380.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 380.
-See the caption package documentation for explanation.
-
+File: graphics//Fig_heatmap.eps Graphic file (type eps)
+ <graphics//Fig_heatmap.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 380.
+(caption)                particular \caption on input line 336.
 See the caption package documentation for explanation.
 
 [8] [9] [10]
+File: graphics//Air Prediction.eps Graphic file (type eps)
+ <graphics//Air Prediction.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 463.
+(caption)                particular \caption on input line 390.
 See the caption package documentation for explanation.
 
 [11]
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 499--499
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.06795pt on input line 499.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 499.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 499.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 499.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 499.
-Missing character: There is no ^^L in font fourier-mex!
-
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 499--499
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
-
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 499--499
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
+File: graphics//Bias_and_VrarianceAll.eps Graphic file (type eps)
+ <graphics//Bias_and_VrarianceAll.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 499.
+(caption)                particular \caption on input line 427.
 See the caption package documentation for explanation.
 
-Missing character: There is no ^^L in font fourier-mex!
 [12]
+File: graphics//Fig_Boxplot.eps Graphic file (type eps)
+ <graphics//Fig_Boxplot.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 531.
+(caption)                particular \caption on input line 450.
 See the caption package documentation for explanation.
 
-
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 531--531
-[][] 
- []
-
-[13] [14] [15] [16]
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 631--631
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
-Missing character: There is no ^^L in font fourier-mex!
-
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 631--631
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
-
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 631--631
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
+[13]
+File: graphics//Fig_Correlations.eps Graphic file (type eps)
+ <graphics//Fig_Correlations.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 631.
+(caption)                particular \caption on input line 467.
 See the caption package documentation for explanation.
 
-Missing character: There is no ^^L in font fourier-mex!
+[14]
+File: graphics//Evaluation.eps Graphic file (type eps)
+ <graphics//Evaluation.eps>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 483.
+See the caption package documentation for explanation.
+
+[15] [16]
+File: graphics//Fig_CM_ModelAccuracy.eps Graphic file (type eps)
+ <graphics//Fig_CM_ModelAccuracy.eps>
+File: graphics//Fig_BenzeneModelBehavior.eps Graphic file (type eps)
+ <graphics//Fig_BenzeneModelBehavior.eps>
+File: graphics//Fig_NOxModelBehavior.eps Graphic file (type eps)
+ <graphics//Fig_NOxModelBehavior.eps>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 522.
+See the caption package documentation for explanation.
+
 [17] [18] [19]
 File: ./graphics//gif//question//q_1.eps Graphic file (type eps)
  <./graphics//gif//question//q_1.eps> <a0,fr0>
@@ -1946,20 +1910,20 @@ File: ./graphics//gif//question//q_30.eps Graphic file (type eps)
  <./graphics//gif//question//q_30.eps> <a0,fr29> [20]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 721.
+(enumitem)                sense, on input line 612.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 721.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 612.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 721.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 612.
 
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 13.39188pt on input line 721.
+(Font)              scaled to size 13.39188pt on input line 612.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 9.29993pt on input line 721.
+(Font)              scaled to size 9.29993pt on input line 612.
 [21] (./report-slides.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1969,12 +1933,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 50537 strings out of 478995
- 1083334 string characters out of 5858210
- 1746955 words of memory out of 5000000
- 66957 multiletter control sequences out of 15000+600000
- 444538 words of font info for 91 fonts, out of 8000000 for 9000
+ 50509 strings out of 478995
+ 1083216 string characters out of 5858210
+ 1746494 words of memory out of 5000000
+ 66921 multiletter control sequences out of 15000+600000
+ 438404 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,11n,117p,2374b,1066s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 104i,9n,117p,2374b,964s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report-slides.dvi (21 pages, 425088 bytes).
+Output written on report-slides.dvi (21 pages, 405384 bytes).
