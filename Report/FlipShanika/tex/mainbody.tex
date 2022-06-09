@@ -3,7 +3,7 @@
 
 
 %\todo{Narrow down to a topic; Dig a hole; Fill the hole}
-\todo{Formula for Introduction}
+%\todo{Formula for Introduction}
 
 %\gangli{``narrow in on topic'' reminds you 
 %that readers and reviewers only know that this is a AI or HTM research paper (and maybe have read the title/abstract). 
@@ -20,22 +20,22 @@
 %You don't need a whirlwind summary of the technical details, 
 %but you need readers convinced (and in a good mood) to keep reading.}
 
-\gangli{A good paper introduction is fairly formulaic. 
-If you follow a simple set of rules, 
-you can write a very good introduction. 
-The following outline can be varied. 
-For example, 
-you can use two paragraphs instead of one, 
-or you can place more emphasis on one aspect of the intro than another. 
-But in all cases, 
-all of the points below need to be covered in an introduction, 
-and in most papers, 
-you don't need to cover anything more in an introduction.}
+%\gangli{A good paper introduction is fairly formulaic. 
+%If you follow a simple set of rules, 
+%%you can write a very good introduction. 
+%The following outline can be varied. 
+%For example, 
+%%you can use two paragraphs instead of one, 
+%or you can place more emphasis on one aspect of the intro than another. 
+%But in all cases, 
+%all of the points below need to be covered in an introduction, 
+%and in most papers, 
+%you don't need to cover anything more in an introduction.}
 
 
 %\todo{The importance of the area}
 %\blindtext
-\todo{Motivation}
+%\todo{Motivation}
 Air pollution is significant problem which arises due to many reasons.
 Among them technological evolution takes high priority.
 However, people need to move on with the technical world 
@@ -53,7 +53,6 @@ Because, every application had data driven structure to analyse the current tren
 in order to predict the future impacts or enhancements.
 Machine learning and Artificial intelligent play vital role in the data driven applications. 
 Therefore, in such studies present prediction and detection models based on the existing data.
-
 
 %\todo{The problems faced by most current methods}
 %\blindtext
@@ -82,6 +81,12 @@ Our main contribution is as follows,
 	\item Second we show how target air pollution components behave over certain period.
 	\item Third we clearly show predicted results by using the proposed regression model.
 \end{itemize}
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+ \includegraphics[width=1.0\linewidth,height=0.6\linewidth]{graphics//Fig_AirPrediction.eps}
+  \caption{Proposed Framework} \label{Fig_AirPrediction}
+\end{figure}
 
 %\todo{What provides the motivation of this work? What are the research issues? What is the rationale of this work? }
 %\blindtext
@@ -110,21 +115,19 @@ and Section 5 involves discussion and 6 elaborate on future directions conclusio
 
 \gangli{Do all of your tenses match up in a paragraph?}
 
-%Test citation~\cite{BL12J01}. 
-%\begin{JournalOnly}
+Test citation~\cite{BL12J01}. 
+\begin{JournalOnly}
 and~\citep{BJL11J01} or~\citet{BJL11J01}.
-%\end{JournalOnly}
+\end{JournalOnly}
 
 %This is for~\cref{tbl:overall-experiments}, 
 %\todo[fancyline]{Testing.}
 %and this is for~\cref{sec-conclusions}.
-\todo[noline]{A note with no line back to the text.}%
-\gangli{This is comment from Gang.}
-\qwu{Response from QW}
-
+%\todo[noline]{A note with no line back to the text.}%
+%\gangli{This is comment from Gang.}
+%\qwu{Response from QW}
 
 %\missingfigure[figcolor=white]{Testing figcolor}
-
 
 %\begin{ConferenceOnly}
 %We have \SI{10}{\hertz},
@@ -150,7 +153,7 @@ and~\citep{BJL11J01} or~\citet{BJL11J01}.
 
 Initially, regression problems 
 anayse the correlation between 
-the predictor variable and the response variables \cite{uyanik2013study}.
+the predictor variable and the response variables~\cite{uyanik2013study}.
 Most probably, regression problems define correlation 
 between two quantitative variables.
 This is indicate as linear regression if it represents 
@@ -184,7 +187,7 @@ These errors are called Bias and Variance.
 We use this bias and variance values in the models to state 
 accuracy levels of proposed models in our evaluation process.
 Bias is a training data error while variance is the testing data error.
-As in the Figure \ref{Fig_BiasVariance}, we can have four types of error levels.
+As in the Figure \cref{Fig_BiasVariance}, we can have four types of error levels.
 However, low bias and low variance models are the bet fitted models.
 Because the both training and testing data fitted exactly on
 the model as in optimal balance graph.
@@ -192,7 +195,7 @@ However, since it is impossible to derive non-error research
 work target to derive low bias, high variance models such as
 decision tree, support vector machines and k-nearest neighbour or high bias, low variance methods such as regression models.
 In this study we uses regression models and we prove that
-we are achieving underfittiing scenarios as illustrated in Figure \ref{Fig_BiasVariance}
+we are achieving underfittiing scenarios as illustrated in Figure \cref{Fig_BiasVariance}
 In linear regression, we normally derive a best fitted line to represent all training data set.
 However, due to the multiple core relations among predictors, we uses rigid regression in which uses penalty term to 
 augment the loss function of the linear regression for better performance.
@@ -202,6 +205,15 @@ augment the loss function of the linear regression for better performance.
 \section{Method} \label{sec-method}
 
 \subsection{Prepossessing and Multicollinearity}
+
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+ \includegraphics[width=1.0\linewidth,height=0.8\linewidth]{graphics//Fig_heatmap.eps}
+  \caption{Heatmap} \label{Heatmap}
+\end{figure}
+
+
 Prepossessing is the initial step in machine learning approaches.
 Because, all the models are driven on the existing training data. 
 Therefore, training data must be clear enough having less noise.
