@@ -56,7 +56,7 @@ Therefore, in such studies present prediction and detection models based on the 
 
 %\todo{The problems faced by most current methods}
 %\blindtext
-\todo{What is the specific problem considered in this paper?}
+%\todo{What is the specific problem considered in this paper?}
 In this study we reveals the high performing prediction model
 using supervised learning model called regression, to predict the air pollution.
 For that, we use temperature values, relative and absolute humidity, 
@@ -81,6 +81,7 @@ Our main contribution is as follows,
 	\item Second we show how target air pollution components behave over certain period.
 	\item Third we clearly show predicted results by using the proposed regression model.
 \end{itemize}
+
 \begin{figure}
   \centering
   \selectcolormodel{rgb}
@@ -166,6 +167,13 @@ In this scenario we have three
 response variables such as 
 carbon monoxide, benzene and notrous oxide compositions.
 
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+ \includegraphics[width=0.8\linewidth,height=0.7\linewidth]{graphics//Bias_and_VrarianceAll.eps}
+  \caption{Bias and Variance for Prediction Accuracy} \label{Bias_and_VrarianceAl}
+\end{figure}
+
 However, when there is more predictors available in training set it is obvious to have correlation among predictors. 
 In such cases, we cannot use linear regression methods to 
 derive prediction models only using two predictors.
@@ -205,6 +213,12 @@ augment the loss function of the linear regression for better performance.
 \section{Method} \label{sec-method}
 
 \subsection{Prepossessing and Multicollinearity}
+
+\begin{figure}
+  \selectcolormodel{rgb}
+  \includegraphics[width=1.0\linewidth,height=0.4\linewidth]{graphics//Fig_Boxplot.eps}
+  \caption{Response data distribution and Outlier Detection.} \label{Bias}
+\end{figure}
 
 \begin{figure}
   \centering
@@ -283,6 +297,19 @@ Further, it describes how much variation
 can be expected in the dependent/response variable.
 
 \section{Experiment and Analysis} \label{sec-experiment}
+
+\begin{figure}
+  \selectcolormodel{rgb}
+  \includegraphics[width=0.9\linewidth,height=0.5\linewidth]{graphics//Fig_Correlations.eps}
+  \caption{Impact of Air pollution and behavior of each pollution
+  components over time. From left top corner to right top corner
+  shows behavior of carbon monoxide, benzene and nitrous oxide
+  respectively. From left bottom corner to right bottom corner shows
+  how temperature, absolute humidity and relative humidity change
+  over time} \label{Bias}
+\end{figure}
+
+
 In this study we propose a model to 
 predict air pollution component behavior by using rigid regression. 
 We use rigid regression instead of linear regression,
@@ -315,6 +342,33 @@ For example, carbon monoxide prediction model hold 0.82 (82\%) coefficient deter
 And such, benzene model holds 0.95 (95\%) coefficient determination, which indicates highest efficiency.
 Moreover, compare to the other two models, the model for nitrous oxide has less efficiency since it has 0.6 coefficient determination. 
 This is clearly shown in Figure \ref{Fig_Prednitrousoxide} in which fits the testing histogram with training histogram.
+
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+ \includegraphics[width=1.0\linewidth,height=0.8\linewidth]{graphics//Fig_CM_ModelAccuracy.eps}
+  \caption{Prediction accuracy for carbon monoxide results [Train-
+  ing histogram indicates in blue color whereas testing histogram
+  show in red color} \label{Fig_CM_ModelAccuracy}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+ \includegraphics[width=1.0\linewidth,height=0.8\linewidth]{graphics//Fig_BenzeneModelBehavior.eps}
+  \caption{Prediction accuracy for benzene results [Training his-
+  togram indicates in blue color whereas testing histogram show in
+  red color} \label{Fig_BenzeneModelBehavior}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+ \includegraphics[width=1.0\linewidth,height=0.8\linewidth]{graphics//Fig_NOxModelBehavior.eps}
+  \caption{Prediction accuracy for nitrous oxide results. [Training
+  histogram indicates in blue color whereas testing histogram show
+  in red color]} \label{Fig_CM_ModelAccuracy}
+\end{figure}
 
 \begin{table}  \centering
   \caption{Precision Comparison on Event Detection Methods}
