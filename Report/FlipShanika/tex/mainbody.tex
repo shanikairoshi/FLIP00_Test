@@ -2,6 +2,9 @@
 \section{Introduction}\label{sec-intro}
 
 
+%\todo{Narrow down to a topic; Dig a hole; Fill the hole}
+\todo{Formula for Introduction}
+
 %\gangli{``narrow in on topic'' reminds you 
 %that readers and reviewers only know that this is a AI or HTM research paper (and maybe have read the title/abstract). 
 %You need to help them figure out what topic and area of research paper this is. 
@@ -17,16 +20,22 @@
 %You don't need a whirlwind summary of the technical details, 
 %but you need readers convinced (and in a good mood) to keep reading.}
 
+\gangli{A good paper introduction is fairly formulaic. 
+If you follow a simple set of rules, 
+you can write a very good introduction. 
+The following outline can be varied. 
+For example, 
+you can use two paragraphs instead of one, 
+or you can place more emphasis on one aspect of the intro than another. 
+But in all cases, 
+all of the points below need to be covered in an introduction, 
+and in most papers, 
+you don't need to cover anything more in an introduction.}
 
 
-\begin{figure*}
-\centering
-\includegraphics[scale=.6]{templatex/graphics/modelimage/Air Prediction.drawio.png}
-%\centering
-\caption{Framework }
-\label{Fig_FLStructure}
-\end{figure*}
-
+%\todo{The importance of the area}
+%\blindtext
+\todo{Motivation}
 Air pollution is significant problem which arises due to many reasons.
 Among them technological evolution takes high priority.
 However, people need to move on with the technical world 
@@ -45,16 +54,19 @@ in order to predict the future impacts or enhancements.
 Machine learning and Artificial intelligent play vital role in the data driven applications. 
 Therefore, in such studies present prediction and detection models based on the existing data.
 
-In this study we reveals the high performing prediction model,
-using supervised learning model called regression,
-to predict the air pollution.
+
+%\todo{The problems faced by most current methods}
+%\blindtext
+\todo{What is the specific problem considered in this paper?}
+In this study we reveals the high performing prediction model
+using supervised learning model called regression, to predict the air pollution.
 For that, we use temperature values, relative and absolute humidity, 
 and 5 sensor values as predictor variable for several months.
 The given target variables are compositions of carbon monoxide, benzene, and nitros oxide.
 
 %\todo{What can be addressed by existing methods; Why those problems are challenges to existing methods?}
 %\blindtext
-
+\todo{Contribution}
 In this paper we show that the model prediction behavior on multicollinearity based predictor variables. 
 Since this is a labeled dataset, we 
 decide to perform supervised learning on training data to propose a model.
@@ -69,30 +81,79 @@ Our main contribution is as follows,
 	\item First we analyse, how much of multicollinarity consists among the given predictor variable using heatmap visualization.
 	\item Second we show how target air pollution components behave over certain period.
 	\item Third we clearly show predicted results by using the proposed regression model.
-
 \end{itemize}
 
 %\todo{What provides the motivation of this work? What are the research issues? What is the rationale of this work? }
 %\blindtext
-
+\todo{At a high level what are the differences in what you are doing, and what others have done? }
+Most of the other studies try to reveal prediction models without considering multicollinarity. 
+However, the importane of our method is addressing multicollinarity in high level.
 %\todo{What we have done and what are the contributions.}
 %\blindtext
+\todo{A roadmap for the rest of the paper}
 The rest of this paper is structured as follows:
-Section (\romannum{2}) describes the preliminary studies that we conducted before proposing this model.
-The method of this proposed model is in Section (\romannum{3}).
-Section (\romannum{4}) discusses the empirical findings of the study presenting performance comparison
-and Section (\romannum{5}) involves discussion and (\romannum{6}) elaborate on future directions conclusions.
+Section 2 describes the preliminary studies that we conducted before proposing this model.
+The method of this proposed model is in Section 3.
+Section 4 discusses the empirical findings of the study presenting performance comparison
+and Section 5 involves discussion and 6 elaborate on future directions conclusions.
+
+
+\gangli{A few general tips:
+Don't spend a lot of time into the introduction 
+telling the reader about what you don't do in the paper. 
+Be clear about what you do do.
+Does each paragraph have a theme sentence that sets the stage for the entire paragraph? Are the sentences and topics in the paragraph all related to each other?}
+
+\gangli{Does each paragraph have a theme 
+sentence that sets the stage for the entire paragraph? 
+Are the sentences and topics in the paragraph all related to each other?}
+
+\gangli{Do all of your tenses match up in a paragraph?}
+
+Test citation~\cite{BL12J01}. 
+\begin{JournalOnly}
+and~\citep{BJL11J01} or~\citet{BJL11J01}.
+\end{JournalOnly}
+
+This is for~\cref{tbl:overall-experiments}, 
+\todo[fancyline]{Testing.}
+and this is for~\cref{sec-conclusions}.
+\todo[noline]{A note with no line back to the text.}%
+\gangli{This is comment from Gang.}
+\qwu{Response from QW}
+
+Number:
+\num{123}.
+\numlist{10;30;50;70},
+\numrange{10}{30},
+\SIlist{10;30;45}{\metre},
+and
+\SI{10}{\percent}
+
+\missingfigure[figcolor=white]{Testing figcolor}
+
+
+\begin{ConferenceOnly}
+We have \SI{10}{\hertz},
+\si{\kilogram\metre\per\second},
+the range: \SIrange{10}{100}{\hertz}.
+$\nicefrac[]{1}{2}$.
+
+\missingfigure{Make a sketch of the structure of a trebuchet.}
+
+\end{ConferenceOnly}
+
+
+For~\cref{eq:test},
+as shown below:
+
+\begin{equation}\label{eq:test}
+a = b \times \sqrt{ab}
+\end{equation}
+
+\blindmathpaper
 
 \section{Preliminaries} \label{sec-preliminaries}
-
-\begin{figure}[hbt!]
-\centering
-\includegraphics[scale=.4]{templatex/graphics/modelimage/Bias and Variance.png}
-%\centering
-\caption{Bias and Variance for Prediction Accuracy \cite{Bias2020} }
-\label{Fig_BiasVariance}
-\end{figure}
-
 
 Initially, regression problems 
 anayse the correlation between 
@@ -109,39 +170,6 @@ In this scenario we have three
 response variables such as 
 carbon monoxide, benzene and notrous oxide compositions.
 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=.5]{templatex/graphics/modelimage/Fig_heatmap.png}
-%\centering
-\caption{Fig_heatmap }
-\label{Fig_heatmap}
-\end{figure}
-
-
-\begin{figure}[hbt]
-\centering
-\includegraphics[scale=.3]{templatex/graphics/modelimage/Fig_CM_ModelAccuracy.png}
-%\centering
-\caption{Prediction accuracy for carbon monoxide results [Training histogram indicates in blue color whereas testing histogram show in red color]}
-\label{Fig_Predcarbon monoxide}
-\end{figure}
-
-\begin{figure}[hbt]
-\centering
-\includegraphics[scale=.3]{templatex/graphics/modelimage/Fig_BenzeneModelBehavior.png}
-%\centering
-\caption{Prediction accuracy for benzene results [Training histogram indicates in blue color whereas testing histogram show in red color]}
-\label{Fig_Predbenzene}
-\end{figure}
-
-\begin{figure}[hbt]
-\centering
-\includegraphics[scale=.3]{templatex/graphics/modelimage/Fig_NOxModelBehavior.png}
-%\centering
-\caption{Prediction accuracy for nitrous oxide results. [Training histogram indicates in blue color whereas testing histogram show in red color]}
-\label{Fig_Prednitrousoxide}
-\end{figure}
 However, when there is more predictors available in training set it is obvious to have correlation among predictors. 
 In such cases, we cannot use linear regression methods to 
 derive prediction models only using two predictors.
@@ -165,168 +193,58 @@ accuracy levels of proposed models in our evaluation process.
 Bias is a training data error while variance is the testing data error.
 As in the Figure \ref{Fig_BiasVariance}, we can have four types of error levels.
 However, low bias and low variance models are the bet fitted models.
-Because the both training and testing data fitted exactly on 
+Because the both training and testing data fitted exactly on
 the model as in optimal balance graph.
-However, since it is impossible to derive non-error research 
-work target to derive low bias, high variance models such as 
+However, since it is impossible to derive non-error research
+work target to derive low bias, high variance models such as
 decision tree, support vector machines and k-nearest neighbour or high bias, low variance methods such as regression models.
 In this study we uses regression models and we prove that
 we are achieving underfittiing scenarios as illustrated in Figure \ref{Fig_BiasVariance}
 In linear regression, we normally derive a best fitted line to represent all training data set.
 However, due to the multiple core relations among predictors, we uses rigid regression in which uses penalty term to 
 augment the loss function of the linear regression for better performance.
+
+\gliMarker  %TODO: GLi Here
+
 \section{Method} \label{sec-method}
 
+\blindtext
+\blindlist{itemize}[3]
+\blinditemize
+\blindenumerate
 
-\subsection{Prepossessing and Multicollinearity}
+\blindmathtrue
+\blindmathfalse
+\blinddescription
 
-
- Prepossessing is the initial step in machine learning approaches.
- Because, all the models are driven on the existing training data. 
- Therefore, training data must be clear enough having less noise.
- There are so many methods to clean the data such as min-max scaling, standard scaling and remove duplication.
- Apart from that, we need to maintain data consistency among the learning process.
- In this study we use, standard scaler which is available in sklearn package in python.
- Then convert all the data into one consistent data format.
- Further, we remove the duplicates and make the data more narrow by which allow to maintain clarity of data.
- We maintain only relevant data items throughout the training process by eliminating other irrelevant data such as target variables and date time data.
- Further, we analyse the data distribution by generating boxplot visualization as in Figure \ref{Fig_boxplot}.
- This uses to identify the symmetric and skewness of target data in the training set before we develop the model.
- 
- \begin{figure*}[hbt!]
-\centering
-\includegraphics[scale=.5]{templatex/graphics/modelimage/Fig_Predictor_Correlation.png}
-%\centering
-\caption{Predictor Correlation Chart [Numerical representation for heatmap diagram]\cite{Bias2020} }
-\label{Fig_Predictor_Correlation}
-\end{figure*}
-
- Multicollinearity is a aspect which occurs when two or more predictor variables are correlated \cite{uyanik2013study}. 
- As a consequent, coefficients error may increase \cite{uyanik2013study}.
- Then the each variables behave insignificantly, thought they should be significant. 
- So that, the models are badly impacted if such model does not address this multicollinearity in an proper way.
- The reasons for multicollinearity are using different 
- types of variables inaccurately, poor or null hypothesis, bad selection of a dependent variable, 
- repetitions in variable, and 
- a high correlation between variables and choice of dummy variables \cite{farrar1967multicollinearity}.
- There are certain set of solutions to hinder the impact of multicollinearity in linear regression.
- They are obtaining more set of predictors, removing 
- unwanted variables, deciding accurate independent variable and use rigid regression method or partial squares regression \cite{farrar1967multicollinearity}.
- Sometimes, if all these solutions may not applicable.
- And then researchers decide do nothing.
- For example, in this study, we recognize the given training data has multicollinearity due to multi 
- correlations among predictors [Temperature, absolute humidity, relative humidity, sensor data] as depicted in Figure \ref{Fig_heatmap} and Figure \ref{Fig_Predictor_Correlation}.
- As a solution, we decide to implement rigid regression method to derive our proposed method.
-
-\subsection{Usage of Rigid Regression}
-
-Linear regression is most widely use learning predictive model 
-which presents relationship as a straight line.
-In this approach show correlation between two variables.
-That means there should be one predictor for response variable/variables at a time.
-Moreover, the dependent variable, which is called 
-response should be continuous and independent 
-variable(s) (predictor variables) can be continuous or discrete. 
-In contrast, rigid regression is a technique used to 
-implement multicollinearity of predictor variables which are highly correlated each other \cite{dong2016moving}.
-Generally, rigid regression is same like linear regression unless it add penalty values to reduce the loss or error of linear regression.
-This error can  be happen due to bias and/or variance of the variables.
-
-\subsection{Efficiency Analysis}
-
-We uses coefficient of determination to measure the performance of the proposed models. 
-The coefficient of determination interprets how well the regression model fits testing data observations.
-Further, it describes how much variation can be expected in the dependent/response variable.
+\qwuMarker %TODO: QWu Here
 
 \section{Experiment and Analysis} \label{sec-experiment}
 
-\begin{figure*}[hbt!]
-\centering
-\includegraphics[scale=.4]{templatex/graphics/modelimage/Fig_Correlations.png}
-%\centering
-\caption{Impact of Air pollution and behavior of each pollution components over time. From left top corner to right top corner shows behavior of carbon monoxide, benzene and nitrous oxide respectively. From left bottom corner to right bottom corner shows how temperature, absolute humidity and relative humidity change over time.}
 
-\label{Fig_Impact}
-\end{figure*}
-
-\begin{figure*}[hbt!]
-\centering
-\includegraphics[scale=.4]{templatex/graphics/modelimage/Fig_Boxplot.png}
-%\centering
-\caption{Boxplot illustration to summarize target data distribution}
-
-\label{Fig_boxplot}
-\end{figure*}
-\begin{table}  
-\centering
-  \caption{Performance measurements of proposed models}
+\begin{table}  \centering
+  \caption{Precision Comparison on Event Detection Methods}
   \label{tbl:overall-experiments}
-  \begin{tabular}{p{2cm}p{1cm}p{1cm}p{1cm}}
+  \begin{tabular}{cccc}
 \toprule
     % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-    & CM & Benzene &NO \\
+    & OR Event Detection & AC Event Detection & TC Event Detection \\
 \midrule
-    Bias & 0.38 & 3.379 & 12916.6 \\
-    Variance & 0.001 & 0.009 & 30.591 \\
-    CD Training & 0.82 & 0.95 & 0.68 \\
-    CD Testing & 0.83 & 0.94 & 0.66 \\
+    precision & 0.83 & 0.69 & 0.46 \\
+    recall & 0.68 & 0.48 & 0.36 \\
+    F-score & 0.747 & 0.57 & 0.4 \\
 \bottomrule
-\multicolumn{4}{c}{CD : Coefficient Determination  }\\
-\multicolumn{4}{c}{CM : Carbon Monoxide }\\
-\multicolumn{4}{c}{NO : Nitrous Oxide}\\
 \end{tabular}
 \end{table}
 
 
-In this study we propose a model to predict air 
-pollution component behavior by using rigid regression. 
-We use rigid regression instead of linear regression,
-to hinder the multicollinearity issue. 
-As illustrated in Figure \ref{Fig_Impact} first we 
-demonstrate given air pollution components behavior over time.
-the given duration starts from march 2010 to January 2011.
-As in Figure \ref{Fig_Impact} first row shows how each 
-air particles behave over this time series. 
-Based on that, we can see all three types of air shows 
-high amount of concentration within September 2010 to January 2011.
-And further, if we consider temperature, it seems high variance within mid of the year.
-Moreover, humidity perform very fluctuation behavior over this period.
-
-We test our proposed model using test dataset which 
-includes same set of predictor variables.
-The results are given in Figures \ref{Fig_Predcarbon monoxide}, \ref{Fig_Predbenzene}, \ref{Fig_Prednitrousoxide}.
-Accordingly, test data prediction given in above 
-figures shows that test accuracy of our model. 
-Because, the test data histogram is properly fitted with test histogram.
-Further, in Table \ref{tbl:overall-experiments} shows how bias and variance relates with 
-different models which are separately derived to 
-predict compositions of carbon monoxide, benzene and nitrous oxide.
-Accordingly, it shows high bias and low variance which is common in all three models.
-This indicates underfitting behavior of data points.
-However, we use coefficient determination factor to 
-show how well our proposed models fits the observed data. 
-As mentioned in Table \ref{tbl:overall-experiments}, 
-all three models has overall best performance efficiency. 
-For example, carbon monoxide prediction model hold 0.82 (82\%) coefficient determination, which indicates high efficiency of the model.
-And such, benzene model holds 0.95 (95\%) coefficient determination, which indicates highest efficiency.
-Moreover, compare to the other two models, the model for nitrous oxide has less efficiency since it has 0.6 coefficient determination. 
-This is clearly shown in Figure \ref{Fig_Prednitrousoxide} in which fits the testing histogram with training histogram.
-
 \section{Conclusions} \label{sec-conclusions}
 
-In this study we propose prediction model to predict air pollution components which are specified as carbon monoxide, benzene and nitrous oxide. We uses multiple predictors such as temperature, absolute and relative humidity and five sensor data.
-We identify that these predictors are correlated among each other.
-Therefore, we reveals the need of handling multicollinearity in this study.
-Consequently, we use rigid linear regression instead general linear regression method.
-We clearly show the performance efficiency of proposed 
-models using determination of coefficient, bias and variance scores for each models.
-We recommend to expand this study to evaluate how well these prediction models behave on dding more noisy data.
-This may help to increase the prediction accuracy.
-Further, we suggest to implement this study to increase the amount of predictors to predict air pollution.
+\blindtext
 
 \section*{Acknowledgement}
 
-I would acknowledge to all the people who helped me to success this effort. Specifically I would thank for the directors and all the members in flip00 for directing me towards this projects.
+\lipsum[1]
 
 
 The authors would like to thank \ldots
