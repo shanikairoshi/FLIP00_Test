@@ -110,48 +110,41 @@ and Section 5 involves discussion and 6 elaborate on future directions conclusio
 
 \gangli{Do all of your tenses match up in a paragraph?}
 
-Test citation~\cite{BL12J01}. 
-\begin{JournalOnly}
+%Test citation~\cite{BL12J01}. 
+%\begin{JournalOnly}
 and~\citep{BJL11J01} or~\citet{BJL11J01}.
-\end{JournalOnly}
+%\end{JournalOnly}
 
-This is for~\cref{tbl:overall-experiments}, 
-\todo[fancyline]{Testing.}
-and this is for~\cref{sec-conclusions}.
+%This is for~\cref{tbl:overall-experiments}, 
+%\todo[fancyline]{Testing.}
+%and this is for~\cref{sec-conclusions}.
 \todo[noline]{A note with no line back to the text.}%
 \gangli{This is comment from Gang.}
 \qwu{Response from QW}
 
-Number:
-\num{123}.
-\numlist{10;30;50;70},
-\numrange{10}{30},
-\SIlist{10;30;45}{\metre},
-and
-\SI{10}{\percent}
 
-\missingfigure[figcolor=white]{Testing figcolor}
+%\missingfigure[figcolor=white]{Testing figcolor}
 
 
-\begin{ConferenceOnly}
-We have \SI{10}{\hertz},
-\si{\kilogram\metre\per\second},
-the range: \SIrange{10}{100}{\hertz}.
-$\nicefrac[]{1}{2}$.
+%\begin{ConferenceOnly}
+%We have \SI{10}{\hertz},
+%\si{\kilogram\metre\per\second},
+%the range: \SIrange{10}{100}{\hertz}.
+%$\nicefrac[]{1}{2}$.
 
-\missingfigure{Make a sketch of the structure of a trebuchet.}
+%\missingfigure{Make a sketch of the structure of a trebuchet.}
 
-\end{ConferenceOnly}
+%\end{ConferenceOnly}
 
 
-For~\cref{eq:test},
-as shown below:
+%For~\cref{eq:test},
+%as shown below:
 
-\begin{equation}\label{eq:test}
-a = b \times \sqrt{ab}
-\end{equation}
+%\begin{equation}\label{eq:test}
+%a = b \times \sqrt{ab}
+%\end{equation}
 
-\blindmathpaper
+%\blindmathpaper
 
 \section{Preliminaries} \label{sec-preliminaries}
 
@@ -224,7 +217,22 @@ Further, we analyse the data distribution by generating boxplot visualization as
 This uses to identify the symmetric and skewness of target data in the training set before we develop the model.
 
 \qwuMarker %TODO: QWu Here
-
+Multicollinearity is a aspect which occurs when two or more predictor variables are correlated \cite{uyanik2013study}. 
+ As a consequent, coefficients error may increase \cite{uyanik2013study}.
+ Then the each variables behave insignificantly, thought they should be significant. 
+ So that, the models are badly impacted if such model does not address this multicollinearity in an proper way.
+ The reasons for multicollinearity are using different 
+ types of variables inaccurately, poor or null hypothesis, bad selection of a dependent variable, 
+ repetitions in variable, and 
+ a high correlation between variables and choice of dummy variables \cite{farrar1967multicollinearity}.
+ There are certain set of solutions to hinder the impact of multicollinearity in linear regression.
+ They are obtaining more set of predictors, removing 
+ unwanted variables, deciding accurate independent variable and use rigid regression method or partial squares regression \cite{farrar1967multicollinearity}.
+ Sometimes, if all these solutions may not applicable.
+ And then researchers decide do nothing.
+ For example, in this study, we recognize the given training data has multicollinearity due to multi 
+ correlations among predictors [Temperature, absolute humidity, relative humidity, sensor data] as depicted in Figure \ref{Fig_heatmap} and Figure \ref{Fig_Predictor_Correlation}.
+ As a solution, we decide to implement rigid regression method to derive our proposed method.
 \section{Experiment and Analysis} \label{sec-experiment}
 
 
