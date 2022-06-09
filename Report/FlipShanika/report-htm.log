@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  9 JUN 2022 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  9 JUN 2022 20:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1032,8 +1032,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \c@example=\count400
 \c@definition=\count401
 \c@Algorithms=\count402
-))
-No file report-htm.aux.
+)) (./report-htm.aux)
 \openout1 = `report-htm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1055,7 +1054,7 @@ LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
@@ -1094,6 +1093,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
+ (./report-htm.out) (./report-htm.out)
 \@outlinefile=\write6
 \openout6 = `report-htm.out'.
 
@@ -1127,7 +1127,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./tex/abstract.tex)
+ (./tex/abstract.tex) (./report-htm.toc)
 \tf@toc=\write7
 \openout7 = `report-htm.toc'.
 
@@ -1176,7 +1176,7 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
-<./graphics/logos/tulip-logo-eps-converted-to.pdf, id=42, 456.70625pt x 622.325pt>
+<./graphics/logos/tulip-logo-eps-converted-to.pdf, id=93, 456.70625pt x 622.325pt>
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 165.
@@ -1197,25 +1197,25 @@ LaTeX Warning: Reference `Fig_BiasVariance' on page 3 undefined on input line 18
 LaTeX Warning: Reference `Fig_BiasVariance' on page 3 undefined on input line 195.
 
 
-LaTeX Warning: Reference `Fig_boxplot' on page 3 undefined on input line 216.
+LaTeX Warning: Reference `Fig_boxplot' on page 3 undefined on input line 218.
 
 
-Package natbib Warning: Citation `uyanik2013study' on page 3 undefined on input line 220.
+Package natbib Warning: Citation `uyanik2013study' on page 3 undefined on input line 222.
 
 
-Package natbib Warning: Citation `uyanik2013study' on page 3 undefined on input line 221.
+Package natbib Warning: Citation `uyanik2013study' on page 3 undefined on input line 223.
 
 
-Package natbib Warning: Citation `farrar1967multicollinearity' on page 3 undefined on input line 227.
+Package natbib Warning: Citation `farrar1967multicollinearity' on page 3 undefined on input line 233.
 
 
-Package natbib Warning: Citation `farrar1967multicollinearity' on page 3 undefined on input line 230.
+Package natbib Warning: Citation `farrar1967multicollinearity' on page 3 undefined on input line 238.
 
 
-LaTeX Warning: Reference `Fig_heatmap' on page 3 undefined on input line 234.
+LaTeX Warning: Reference `Fig_heatmap' on page 3 undefined on input line 244.
 
 
-LaTeX Warning: Reference `Fig_Predictor_Correlation' on page 3 undefined on input line 234.
+LaTeX Warning: Reference `Fig_Predictor_Correlation' on page 3 undefined on input line 244.
 
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1224,18 +1224,58 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:55:27
 (epstopdf)                    size: 21448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 236.
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 247.
 (pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.79996pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
-[3])
+[3]
+
+Package natbib Warning: Citation `dong2016moving' on page 4 undefined on input line 260.
+
+
+LaTeX Warning: Reference `Fig_Impact' on page 4 undefined on input line 278.
+
+
+LaTeX Warning: Reference `Fig_Impact' on page 4 undefined on input line 281.
+
+
+LaTeX Warning: Reference `Fig_Predcarbon monoxide' on page 4 undefined on input line 289.
+
+
+LaTeX Warning: Reference `Fig_Predbenzene' on page 4 undefined on input line 289.
+
+
+LaTeX Warning: Reference `Fig_Prednitrousoxide' on page 4 undefined on input line 289.
+
+
+LaTeX Warning: Reference `Fig_Prednitrousoxide' on page 4 undefined on input line 305.
+
+Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
+(epstopdf)                    date: 2022-06-09 16:53:25
+(epstopdf)                    size: 1059122 bytes
+(epstopdf)             Output file: <./graphics/logos/tulip-logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-06-09 16:55:27
+(epstopdf)                    size: 21448 bytes
+(epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
+(epstopdf)             \includegraphics on input line 306.
+Package epstopdf Info: Output file is already uptodate.
+File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 306.
+(pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
+
+Package fancyhdr Warning: \footskip is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.79996pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.79996pt}.
+
+[4])
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
 (epstopdf)                    size: 1059122 bytes
@@ -1255,13 +1295,12 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 (fancyhdr)                Make it at least 14.79996pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
-[4]
+[5]
 No file report-htm.bbl.
-
-Package hyperref Warning: old tdo file detected, not used; run LaTeX again.
-
+(./report-htm.tdo)
 \tf@tdo=\write8
 \openout8 = `report-htm.tdo'.
+
 
 
 Package natbib Warning: There were undefined citations.
@@ -1284,37 +1323,28 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 (fancyhdr)                Make it at least 14.79996pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
-[5]
+[6]
 No complaints by nag.
 (./report-htm.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `report-htm.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report-htm.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  6268370170B962DF3DD4DD7EE5F1A3AF;1022.
+Package rerunfilecheck Info: File `report-htm.out' has not changed.
+(rerunfilecheck)             Checksum: C04B4FEB1D0679BD209A4F7ABBD454DE;1541.
  ) 
 Here is how much of TeX's memory you used:
- 36335 strings out of 478994
- 704802 string characters out of 5858184
- 1351203 words of memory out of 5000000
- 52835 multiletter control sequences out of 15000+600000
- 415538 words of font info for 126 fonts, out of 8000000 for 9000
+ 36372 strings out of 478994
+ 705157 string characters out of 5858184
+ 1188918 words of memory out of 5000000
+ 52845 multiletter control sequences out of 15000+600000
+ 416048 words of font info for 135 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  133i,14n,134p,639b,977s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report-htm.pdf (5 pages, 178745 bytes).
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report-htm.pdf (6 pages, 197957 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 31 named destinations out of 1000 (max. 500000)
- 30834 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 30914 words of extra memory for PDF output out of 35830 (max. 10000000)
 
