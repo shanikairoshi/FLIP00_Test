@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  9 JUN 2022 21:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  9 JUN 2022 22:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1032,20 +1032,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \c@example=\count400
 \c@definition=\count401
 \c@Algorithms=\count402
-)) (./report-htm.aux
-
-LaTeX Warning: Label `Bias' multiply defined.
-
-
-LaTeX Warning: Label `Bias@cref' multiply defined.
-
-
-LaTeX Warning: Label `Fig_CM_ModelAccuracy' multiply defined.
-
-
-LaTeX Warning: Label `Fig_CM_ModelAccuracy@cref' multiply defined.
-
-)
+)) (./report-htm.aux)
 \openout1 = `report-htm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1165,7 +1152,7 @@ Package pdftex.def Info: graphics//Fig_AirPrediction-eps-converted-to.pdf  used 
 (pdftex.def)             Requested size: 360.00156pt x 216.00755pt.
 
 
-Package natbib Warning: Citation `BL12J01' on page 2 undefined on input line 119.
+Package natbib Warning: Citation `BL12J01' on page 2 undefined on input line 121.
 
 Including 'JournalOnly' comment.
 \openout3 = `comment.cut'.
@@ -1179,7 +1166,7 @@ Package natbib Warning: Citation `BJL11J01' on page 2 undefined on input line 1.
 
 )
 
-Package natbib Warning: Citation `uyanik2013study' on page 2 undefined on input line 157.
+Package natbib Warning: Citation `uyanik2013study' on page 2 undefined on input line 159.
 
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1188,12 +1175,12 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:55:27
 (epstopdf)                    size: 21448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 169.
+(epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 <./graphics/logos/tulip-logo-eps-converted-to.pdf, id=89, 456.70625pt x 622.325pt>
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 169.
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 171.
 (pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
@@ -1208,22 +1195,22 @@ Package epstopdf Info: Source file: <graphics//Bias_and_VrarianceAll.eps>
 (epstopdf)                    date: 2022-06-09 21:11:31
 (epstopdf)                    size: 67702 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics//Bias_and_VrarianceAll-eps-converted-to.pdf graphics//Bias_and_VrarianceAll.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
-<graphics//Bias_and_VrarianceAll-eps-converted-to.pdf, id=103, 587.19376pt x 496.85625pt>
+<graphics//Bias_and_VrarianceAll-eps-converted-to.pdf, id=100, 587.19376pt x 496.85625pt>
 File: graphics//Bias_and_VrarianceAll-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics//Bias_and_VrarianceAll-eps-converted-to.pdf>
-Package pdftex.def Info: graphics//Bias_and_VrarianceAll-eps-converted-to.pdf  used on input line 173.
+Package pdftex.def Info: graphics//Bias_and_VrarianceAll-eps-converted-to.pdf  used on input line 175.
 (pdftex.def)             Requested size: 287.99625pt x 251.99835pt.
 
 
-Package natbib Warning: Citation `seber2012linear' on page 3 undefined on input line 185.
+Package natbib Warning: Citation `seber2012linear' on page 3 undefined on input line 187.
 
 
-LaTeX Warning: Reference `Fig_BiasVariance' on page 1 undefined on input line 198.
+LaTeX Warning: Reference `Fig_BiasVariance' on page 1 undefined on input line 200.
 
 
-LaTeX Warning: Reference `Fig_BiasVariance' on page 1 undefined on input line 206.
+LaTeX Warning: Reference `Bias_and_VrarianceAll' on page 1 undefined on input line 208.
 
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1232,11 +1219,11 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:55:27
 (epstopdf)                    size: 21448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 210.
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 212.
 (pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
@@ -1251,12 +1238,12 @@ Package epstopdf Info: Source file: <graphics//Fig_Boxplot.eps>
 (epstopdf)                    date: 2022-06-09 21:15:25
 (epstopdf)                    size: 63292 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics//Fig_Boxplot-eps-converted-to.pdf graphics//Fig_Boxplot.eps>
-(epstopdf)             \includegraphics on input line 219.
+(epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
-<graphics//Fig_Boxplot-eps-converted-to.pdf, id=111, 2214.2725pt x 421.575pt>
+<graphics//Fig_Boxplot-eps-converted-to.pdf, id=108, 2214.2725pt x 421.575pt>
 File: graphics//Fig_Boxplot-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics//Fig_Boxplot-eps-converted-to.pdf>
-Package pdftex.def Info: graphics//Fig_Boxplot-eps-converted-to.pdf  used on input line 219.
+Package pdftex.def Info: graphics//Fig_Boxplot-eps-converted-to.pdf  used on input line 221.
 (pdftex.def)             Requested size: 360.00085pt x 143.99617pt.
 Package epstopdf Info: Source file: <graphics//Fig_heatmap.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1265,34 +1252,31 @@ Package epstopdf Info: Source file: <graphics//Fig_heatmap.eps>
 (epstopdf)                    date: 2022-06-09 21:02:21
 (epstopdf)                    size: 74182 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics//Fig_heatmap-eps-converted-to.pdf graphics//Fig_heatmap.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
-<graphics//Fig_heatmap-eps-converted-to.pdf, id=112, 911.405pt x 702.625pt>
+<graphics//Fig_heatmap-eps-converted-to.pdf, id=109, 911.405pt x 702.625pt>
 File: graphics//Fig_heatmap-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics//Fig_heatmap-eps-converted-to.pdf>
-Package pdftex.def Info: graphics//Fig_heatmap-eps-converted-to.pdf  used on input line 226.
+Package pdftex.def Info: graphics//Fig_heatmap-eps-converted-to.pdf  used on input line 228.
 (pdftex.def)             Requested size: 360.00798pt x 288.00307pt.
 
 
-LaTeX Warning: Reference `Fig_boxplot' on page 4 undefined on input line 244.
+LaTeX Warning: Reference `Fig_boxplot' on page 1 undefined on input line 246.
 
 
-Package natbib Warning: Citation `uyanik2013study' on page 4 undefined on input line 248.
+Package natbib Warning: Citation `uyanik2013study' on page 4 undefined on input line 250.
 
 
-Package natbib Warning: Citation `uyanik2013study' on page 4 undefined on input line 249.
+Package natbib Warning: Citation `uyanik2013study' on page 4 undefined on input line 251.
 
 
-Package natbib Warning: Citation `farrar1967multicollinearity' on page 4 undefined on input line 259.
+Package natbib Warning: Citation `farrar1967multicollinearity' on page 4 undefined on input line 261.
 
 
-Package natbib Warning: Citation `farrar1967multicollinearity' on page 4 undefined on input line 264.
+Package natbib Warning: Citation `farrar1967multicollinearity' on page 4 undefined on input line 266.
 
 
-LaTeX Warning: Reference `Fig_heatmap' on page 4 undefined on input line 270.
-
-
-LaTeX Warning: Reference `Fig_Predictor_Correlation' on page 4 undefined on input line 270.
+LaTeX Warning: Reference `Fig_heatmap' on page 4 undefined on input line 272.
 
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1301,11 +1285,11 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:55:27
 (epstopdf)                    size: 21448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 273.
+(epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 273.
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 275.
 (pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
@@ -1320,11 +1304,11 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:55:27
 (epstopdf)                    size: 21448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 273.
+(epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 273.
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 275.
 (pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
 
 
@@ -1334,7 +1318,7 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 
 [5 <./graphics//Fig_heatmap-eps-converted-to.pdf>]
 
-Package natbib Warning: Citation `dong2016moving' on page 6 undefined on input line 286.
+Package natbib Warning: Citation `dong2016moving' on page 6 undefined on input line 288.
 
 Package epstopdf Info: Source file: <graphics//Fig_Correlations.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1343,30 +1327,18 @@ Package epstopdf Info: Source file: <graphics//Fig_Correlations.eps>
 (epstopdf)                    date: 2022-06-09 21:15:26
 (epstopdf)                    size: 332679 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics//Fig_Correlations-eps-converted-to.pdf graphics//Fig_Correlations.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
-<graphics//Fig_Correlations-eps-converted-to.pdf, id=132, 2023.56pt x 845.1575pt>
+<graphics//Fig_Correlations-eps-converted-to.pdf, id=130, 2023.56pt x 845.1575pt>
 File: graphics//Fig_Correlations-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics//Fig_Correlations-eps-converted-to.pdf>
-Package pdftex.def Info: graphics//Fig_Correlations-eps-converted-to.pdf  used on input line 303.
+Package pdftex.def Info: graphics//Fig_Correlations-eps-converted-to.pdf  used on input line 305.
 (pdftex.def)             Requested size: 323.99236pt x 180.00304pt.
 
-LaTeX Warning: Reference `Fig_Impact' on page 6 undefined on input line 317.
+LaTeX Warning: Reference `Fig_Impact' on page 6 undefined on input line 319.
 
 
-LaTeX Warning: Reference `Fig_Impact' on page 6 undefined on input line 320.
-
-
-LaTeX Warning: Reference `Fig_Predcarbon monoxide' on page 6 undefined on input line 328.
-
-
-LaTeX Warning: Reference `Fig_Predbenzene' on page 6 undefined on input line 328.
-
-
-LaTeX Warning: Reference `Fig_Prednitrousoxide' on page 6 undefined on input line 328.
-
-
-LaTeX Warning: Reference `Fig_Prednitrousoxide' on page 6 undefined on input line 344.
+LaTeX Warning: Reference `Fig_Impact' on page 6 undefined on input line 322.
 
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1375,11 +1347,11 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:55:27
 (epstopdf)                    size: 21448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 345.
+(epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 345.
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 347.
 (pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
@@ -1394,12 +1366,12 @@ Package epstopdf Info: Source file: <graphics//Fig_CM_ModelAccuracy.eps>
 (epstopdf)                    date: 2022-06-09 21:20:31
 (epstopdf)                    size: 50789 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf graphics//Fig_CM_ModelAccuracy.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
-<graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf, id=142, 1473.505pt x 861.2175pt>
+<graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf, id=144, 1473.505pt x 861.2175pt>
 File: graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf>
-Package pdftex.def Info: graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf  used on input line 349.
+Package pdftex.def Info: graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf  used on input line 351.
 (pdftex.def)             Requested size: 359.98888pt x 288.00043pt.
 Package epstopdf Info: Source file: <graphics//Fig_BenzeneModelBehavior.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1408,12 +1380,12 @@ Package epstopdf Info: Source file: <graphics//Fig_BenzeneModelBehavior.eps>
 (epstopdf)                    date: 2022-06-09 21:23:01
 (epstopdf)                    size: 51776 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics//Fig_BenzeneModelBehavior-eps-converted-to.pdf graphics//Fig_BenzeneModelBehavior.eps>
-(epstopdf)             \includegraphics on input line 358.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
-<graphics//Fig_BenzeneModelBehavior-eps-converted-to.pdf, id=143, 1459.4525pt x 859.21pt>
+<graphics//Fig_BenzeneModelBehavior-eps-converted-to.pdf, id=145, 1459.4525pt x 859.21pt>
 File: graphics//Fig_BenzeneModelBehavior-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics//Fig_BenzeneModelBehavior-eps-converted-to.pdf>
-Package pdftex.def Info: graphics//Fig_BenzeneModelBehavior-eps-converted-to.pdf  used on input line 358.
+Package pdftex.def Info: graphics//Fig_BenzeneModelBehavior-eps-converted-to.pdf  used on input line 360.
 (pdftex.def)             Requested size: 359.98523pt x 287.99774pt.
 Package epstopdf Info: Source file: <graphics//Fig_NOxModelBehavior.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1422,14 +1394,33 @@ Package epstopdf Info: Source file: <graphics//Fig_NOxModelBehavior.eps>
 (epstopdf)                    date: 2022-06-09 21:23:02
 (epstopdf)                    size: 53360 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics//Fig_NOxModelBehavior-eps-converted-to.pdf graphics//Fig_NOxModelBehavior.eps>
-(epstopdf)             \includegraphics on input line 367.
+(epstopdf)             \includegraphics on input line 369.
 Package epstopdf Info: Output file is already uptodate.
-<graphics//Fig_NOxModelBehavior-eps-converted-to.pdf, id=144, 1467.4825pt x 867.24pt>
+<graphics//Fig_NOxModelBehavior-eps-converted-to.pdf, id=146, 1467.4825pt x 867.24pt>
 File: graphics//Fig_NOxModelBehavior-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics//Fig_NOxModelBehavior-eps-converted-to.pdf>
-Package pdftex.def Info: graphics//Fig_NOxModelBehavior-eps-converted-to.pdf  used on input line 367.
+Package pdftex.def Info: graphics//Fig_NOxModelBehavior-eps-converted-to.pdf  used on input line 369.
 (pdftex.def)             Requested size: 359.99539pt x 288.003pt.
-)
+Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
+(epstopdf)                    date: 2022-06-09 16:53:25
+(epstopdf)                    size: 1059122 bytes
+(epstopdf)             Output file: <./graphics/logos/tulip-logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-06-09 16:55:27
+(epstopdf)                    size: 21448 bytes
+(epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
+(epstopdf)             \includegraphics on input line 404.
+Package epstopdf Info: Output file is already uptodate.
+File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 404.
+(pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
+
+
+Package fancyhdr Warning: \footskip is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.79996pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.79996pt}.
+
+[7])
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
 (epstopdf)                    size: 1059122 bytes
@@ -1449,28 +1440,7 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 (fancyhdr)                Make it at least 14.79996pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
-[7]
-Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
-(epstopdf)                    date: 2022-06-09 16:53:25
-(epstopdf)                    size: 1059122 bytes
-(epstopdf)             Output file: <./graphics/logos/tulip-logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-06-09 16:55:27
-(epstopdf)                    size: 21448 bytes
-(epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 53.
-Package epstopdf Info: Output file is already uptodate.
-File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
-<use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 53.
-(pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
-
-
-Package fancyhdr Warning: \footskip is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.79996pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.79996pt}.
-
-[8 <./graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf>]
-No file report-htm.bbl.
+[8 <./graphics//Fig_CM_ModelAccuracy-eps-converted-to.pdf>] (./report-htm.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1519,24 +1489,34 @@ No complaints by nag.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `report-htm.out' has not changed.
-(rerunfilecheck)             Checksum: 38D141AD3DCD4237AE5FCD63F1F167AA;1426.
+
+Package rerunfilecheck Warning: File `report-htm.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report-htm.out':
+(rerunfilecheck)             Before: E1EAC055AAA271B0EB202E28969EC18E;1426
+(rerunfilecheck)             After:  BF68079736B3F4589BFC14F30EBE74C6;1426.
  ) 
 Here is how much of TeX's memory you used:
- 36373 strings out of 478994
- 706540 string characters out of 5858184
- 1163905 words of memory out of 5000000
- 52842 multiletter control sequences out of 15000+600000
- 415806 words of font info for 131 fonts, out of 8000000 for 9000
+ 36347 strings out of 478994
+ 706071 string characters out of 5858184
+ 1159808 words of memory out of 5000000
+ 52814 multiletter control sequences out of 15000+600000
+ 415488 words of font info for 130 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 133i,14n,134p,480b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report-htm.pdf (10 pages, 912386 bytes).
+ 133i,14n,134p,479b,966s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.11} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.12} has been referenced but does not exist, replaced by a fixed one
+
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report-htm.pdf (10 pages, 902322 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 220 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
- 30946 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 28898 words of extra memory for PDF output out of 29859 (max. 10000000)
 

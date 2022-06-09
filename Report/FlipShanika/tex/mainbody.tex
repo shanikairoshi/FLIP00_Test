@@ -86,7 +86,9 @@ Our main contribution is as follows,
   \centering
   \selectcolormodel{rgb}
  \includegraphics[width=1.0\linewidth,height=0.6\linewidth]{graphics//Fig_AirPrediction.eps}
-  \caption{Proposed Framework} \label{Fig_AirPrediction}
+  \caption{Proposed Framework} \
+  {image1:Fig_AirPrediction}
+  %label{Fig_AirPrediction}
 \end{figure}
 
 %\todo{What provides the motivation of this work? What are the research issues? What is the rationale of this work? }
@@ -96,7 +98,7 @@ Most of the other studies try to reveal prediction models without considering mu
 However, the importane of our method is addressing multicollinarity in high level.
 %\todo{What we have done and what are the contributions.}
 %\blindtext
-\todo{A roadmap for the rest of the paper}
+%\todo{A roadmap for the rest of the paper}
 The rest of this paper is structured as follows:
 Section 2 describes the preliminary studies that we conducted before proposing this model.
 The method of this proposed model is in Section 3.
@@ -114,7 +116,7 @@ and Section 5 involves discussion and 6 elaborate on future directions conclusio
 %sentence that sets the stage for the entire paragraph? 
 %Are the sentences and topics in the paragraph all related to each other?}
 
-\gangli{Do all of your tenses match up in a paragraph?}
+%\gangli{Do all of your tenses match up in a paragraph?}
 
 Test citation~\cite{BL12J01}. 
 \begin{JournalOnly}
@@ -154,7 +156,7 @@ and~\citep{BJL11J01} or~\citet{BJL11J01}.
 
 Initially, regression problems 
 anayse the correlation between 
-the predictor variable and the response variables~\cite{uyanik2013study}.
+the predictor variable and the response variables~\citep{uyanik2013study}.
 Most probably, regression problems define correlation 
 between two quantitative variables.
 This is indicate as linear regression if it represents 
@@ -182,7 +184,7 @@ correlations between that
 selected predictor and the given response variable, we need to 
 assume other predictors have no or less impact on that correlation.
 Depending on different factors such as experience, historical 
-data one response may be affected by more predictors \cite{seber2012linear}. 
+data one response may be affected by more predictors~\cite{seber2012linear}. 
 In this study we are working on same kind of scenario.
 
 Machine learning allows machines to analyse existing data and 
@@ -195,7 +197,7 @@ These errors are called Bias and Variance.
 We use this bias and variance values in the models to state 
 accuracy levels of proposed models in our evaluation process.
 Bias is a training data error while variance is the testing data error.
-As in the Figure \cref{Fig_BiasVariance}, we can have four types of error levels.
+As in the Figure~\cref{Fig_BiasVariance}, we can have four types of error levels.
 However, low bias and low variance models are the bet fitted models.
 Because the both training and testing data fitted exactly on
 the model as in optimal balance graph.
@@ -203,7 +205,7 @@ However, since it is impossible to derive non-error research
 work target to derive low bias, high variance models such as
 decision tree, support vector machines and k-nearest neighbour or high bias, low variance methods such as regression models.
 In this study we uses regression models and we prove that
-we are achieving underfittiing scenarios as illustrated in Figure \cref{Fig_BiasVariance}
+we are achieving underfittiing scenarios as illustrated in Figure \cref{Bias_and_VrarianceAll}
 In linear regression, we normally derive a best fitted line to represent all training data set.
 However, due to the multiple core relations among predictors, we uses rigid regression in which uses penalty term to 
 augment the loss function of the linear regression for better performance.
@@ -217,7 +219,7 @@ augment the loss function of the linear regression for better performance.
 \begin{figure}
   \selectcolormodel{rgb}
   \includegraphics[width=1.0\linewidth,height=0.4\linewidth]{graphics//Fig_Boxplot.eps}
-  \caption{Response data distribution and Outlier Detection.} \label{Bias}
+  \caption{Response data distribution and Outlier Detection.} \label{Fig_Boxplot}
 \end{figure}
 
 \begin{figure}
@@ -241,11 +243,11 @@ make the data more narrow by which allow to maintain clarity of data.
 We maintain only relevant data items throughout the training process 
 by eliminating other irrelevant data such as target variables and date time data.
 Further, we analyse the data distribution 
-by generating boxplot visualization as in Figure \ref{Fig_boxplot}.
+by generating boxplot visualization as in Figure \cref{Fig_boxplot}.
 This uses to identify the symmetric 
 and skewness of target data in the training set before we develop the model.
 Multicollinearity is a aspect which 
-occurs when two or more predictor variables are correlated \cite{uyanik2013study}. 
+occurs when two or more predictor variables are correlated~\cite{uyanik2013study}. 
 As a consequent, coefficients error may increase \cite{uyanik2013study}.
 Then the each variables behave insignificantly, 
 thought they should be significant. 
@@ -256,18 +258,18 @@ types of variables inaccurately,
 poor or null hypothesis, bad selection of a dependent variable, 
 repetitions in variable, and 
 a high correlation between variables and 
-choice of dummy variables \cite{farrar1967multicollinearity}.
+choice of dummy variables~\cite{farrar1967multicollinearity}.
 There are certain set of solutions to 
 hinder the impact of multicollinearity in linear regression.
 They are obtaining more set of predictors, removing 
 unwanted variables, deciding accurate independent variable 
-and use rigid regression method or partial squares regression \cite{farrar1967multicollinearity}.
+and use rigid regression method or partial squares regression~\cite{farrar1967multicollinearity}.
 Sometimes, if all these solutions may not applicable.
 And then researchers decide do nothing.
 For example, in this study, 
 we recognize the given training data has multicollinearity due to multi 
 correlations among predictors [Temperature, absolute humidity, relative humidity, sensor data] 
-as depicted in Figure \ref{Fig_heatmap} and Figure \ref{Fig_Predictor_Correlation}.
+as depicted in Figure \ref{Fig_heatmap} and Figure \ref{Fig_Predictor_correlation}.
 As a solution, we decide to implement rigid regression method 
 to derive our proposed method.
 
@@ -306,7 +308,7 @@ can be expected in the dependent/response variable.
   shows behavior of carbon monoxide, benzene and nitrous oxide
   respectively. From left bottom corner to right bottom corner shows
   how temperature, absolute humidity and relative humidity change
-  over time} \label{Bias}
+  over time} \label{Fig_Predictor_correlation}
 \end{figure}
 
 
@@ -349,7 +351,7 @@ This is clearly shown in Figure \ref{Fig_Prednitrousoxide} in which fits the tes
  \includegraphics[width=1.0\linewidth,height=0.8\linewidth]{graphics//Fig_CM_ModelAccuracy.eps}
   \caption{Prediction accuracy for carbon monoxide results [Train-
   ing histogram indicates in blue color whereas testing histogram
-  show in red color} \label{Fig_CM_ModelAccuracy}
+  show in red color} \label{Fig_Predcarbon monoxide}
 \end{figure}
 
 \begin{figure}
@@ -358,7 +360,7 @@ This is clearly shown in Figure \ref{Fig_Prednitrousoxide} in which fits the tes
  \includegraphics[width=1.0\linewidth,height=0.8\linewidth]{graphics//Fig_BenzeneModelBehavior.eps}
   \caption{Prediction accuracy for benzene results [Training his-
   togram indicates in blue color whereas testing histogram show in
-  red color} \label{Fig_BenzeneModelBehavior}
+  red color} \label{Fig_Predbenzene}
 \end{figure}
 
 \begin{figure}
@@ -367,7 +369,7 @@ This is clearly shown in Figure \ref{Fig_Prednitrousoxide} in which fits the tes
  \includegraphics[width=1.0\linewidth,height=0.8\linewidth]{graphics//Fig_NOxModelBehavior.eps}
   \caption{Prediction accuracy for nitrous oxide results. [Training
   histogram indicates in blue color whereas testing histogram show
-  in red color]} \label{Fig_CM_ModelAccuracy}
+  in red color]} \label{Fig_Prednitrousoxide}
 \end{figure}
 
 \begin{table}  \centering
