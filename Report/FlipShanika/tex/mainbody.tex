@@ -85,7 +85,7 @@ Our main contribution is as follows,
 
 %\todo{What provides the motivation of this work? What are the research issues? What is the rationale of this work? }
 %\blindtext
-\todo{At a high level what are the differences in what you are doing, and what others have done? }
+%\todo{At a high level what are the differences in what you are doing, and what others have done? }
 Most of the other studies try to reveal prediction models without considering multicollinarity. 
 However, the importane of our method is addressing multicollinarity in high level.
 %\todo{What we have done and what are the contributions.}
@@ -98,15 +98,15 @@ Section 4 discusses the empirical findings of the study presenting performance c
 and Section 5 involves discussion and 6 elaborate on future directions conclusions.
 
 
-\gangli{A few general tips:
-Don't spend a lot of time into the introduction 
-telling the reader about what you don't do in the paper. 
-Be clear about what you do do.
-Does each paragraph have a theme sentence that sets the stage for the entire paragraph? Are the sentences and topics in the paragraph all related to each other?}
+%\gangli{A few general tips:
+%Don't spend a lot of time into the introduction 
+%telling the reader about what you don't do in the paper. 
+%Be clear about what you do do.
+%Does each paragraph have a theme sentence that sets the stage for the entire paragraph? Are %the sentences and topics in the paragraph all related to each other?}
 
-\gangli{Does each paragraph have a theme 
-sentence that sets the stage for the entire paragraph? 
-Are the sentences and topics in the paragraph all related to each other?}
+%\gangli{Does each paragraph have a theme 
+%sentence that sets the stage for the entire paragraph? 
+%Are the sentences and topics in the paragraph all related to each other?}
 
 \gangli{Do all of your tenses match up in a paragraph?}
 
@@ -208,14 +208,20 @@ augment the loss function of the linear regression for better performance.
 
 \section{Method} \label{sec-method}
 
-\blindtext
-\blindlist{itemize}[3]
-\blinditemize
-\blindenumerate
+\subsection{Prepossessing and Multicollinearity}
 
-\blindmathtrue
-\blindmathfalse
-\blinddescription
+
+Prepossessing is the initial step in machine learning approaches.
+Because, all the models are driven on the existing training data. 
+Therefore, training data must be clear enough having less noise.
+There are so many methods to clean the data such as min-max scaling, standard scaling and remove duplication.
+Apart from that, we need to maintain data consistency among the learning process.
+In this study we use, standard scaler which is available in sklearn package in python.
+Then convert all the data into one consistent data format.
+Further, we remove the duplicates and make the data more narrow by which allow to maintain clarity of data.
+We maintain only relevant data items throughout the training process by eliminating other irrelevant data such as target variables and date time data.
+Further, we analyse the data distribution by generating boxplot visualization as in Figure \ref{Fig_boxplot}.
+This uses to identify the symmetric and skewness of target data in the training set before we develop the model.
 
 \qwuMarker %TODO: QWu Here
 

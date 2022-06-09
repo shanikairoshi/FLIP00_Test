@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  9 JUN 2022 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  9 JUN 2022 17:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1150,18 +1150,6 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
 Package natbib Warning: Citation `BL12J01' on page 2 undefined on input line 113.
 
 Including 'JournalOnly' comment.
@@ -1175,12 +1163,6 @@ Package natbib Warning: Citation `BJL11J01' on page 2 undefined on input line 1.
 Package natbib Warning: Citation `BJL11J01' on page 2 undefined on input line 1.
 
 )
-
-LaTeX Warning: Reference `tbl:overall-experiments' on page 1 undefined on input line 118.
-
-
-LaTeX Warning: Reference `sec-conclusions' on page 1 undefined on input line 120.
-
 
 LaTeX Warning: Marginpar on page 2 moved.
 
@@ -1203,14 +1185,12 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
 (epstopdf)                    size: 1059122 bytes
 (epstopdf)             Output file: <./graphics/logos/tulip-logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-06-09 16:55:27
+(epstopdf)                    size: 21448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
 (epstopdf)             \includegraphics on input line 1.
-runsystem(repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./graphics/logos/tulip-logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-06-09 16:55:27
-(epstopdf)                    size: 21448 bytes.
-<./graphics/logos/tulip-logo-eps-converted-to.pdf, id=42, 456.70625pt x 622.325pt>
+Package epstopdf Info: Output file is already uptodate.
+<./graphics/logos/tulip-logo-eps-converted-to.pdf, id=80, 456.70625pt x 622.325pt>
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 1.
@@ -1222,9 +1202,6 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
 [2 <./graphics/logos/tulip-logo-eps-converted-to.pdf>])
-
-LaTeX Warning: Reference `eq:test' on page 1 undefined on input line 147.
-
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
 (epstopdf)                    size: 1059122 bytes
@@ -1238,6 +1215,7 @@ File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 154.
 (pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
+
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.79996pt, for example:
@@ -1312,28 +1290,8 @@ LaTeX Warning: Reference `Fig_BiasVariance' on page 4 undefined on input line 19
 
 LaTeX Warning: Reference `Fig_BiasVariance' on page 4 undefined on input line 202.
 
-pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.9}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.212 \blindlist
-                {itemize}[3]pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.10}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.212 \blindlist
-                {itemize}[3]pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.0}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.212 \blindlist
-                {itemize}[3]pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.212 \blindlist
-                {itemize}[3]pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.212 \blindlist
-                {itemize}[3]
-Underfull \vbox (badness 1067) has occurred while \output is active []
+
+LaTeX Warning: Reference `Fig_boxplot' on page 4 undefined on input line 223.
 
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
@@ -1342,13 +1300,12 @@ Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:55:27
 (epstopdf)                    size: 21448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 212.
+(epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
 File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 212.
+Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 225.
 (pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
-
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.79996pt, for example:
@@ -1357,64 +1314,44 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 [4pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.212 \blindlist{itemize}[3]
-                            pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.0}) has been already used, duplicate ignored
+l.225 
+      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.0}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.212 \blindlist{itemize}[3]
-                            pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.1}) has been already used, duplicate ignored
+l.225 
+      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.212 \blindlist{itemize}[3]
-                            pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.2}) has been already used, duplicate ignored
+l.225 
+      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.212 \blindlist{itemize}[3]
-                            pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.3}) has been already used, duplicate ignored
+l.225 
+      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.212 \blindlist{itemize}[3]
-                            ]pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.3}) has been already used, duplicate ignored
+l.225 
+      ]pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 
-      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.4}) has been already used, duplicate ignored
+l.250 
+      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 
-      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.5}) has been already used, duplicate ignored
+l.250 
+      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.0}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 
-      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.6}) has been already used, duplicate ignored
+l.250 
+      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 
-      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.7}) has been already used, duplicate ignored
+l.250 
+      pdfTeX warning (ext4): destination with the same identifier (name{blind@pangramcount.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 
-      
-Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
-(epstopdf)                    date: 2022-06-09 16:53:25
-(epstopdf)                    size: 1059122 bytes
-(epstopdf)             Output file: <./graphics/logos/tulip-logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-06-09 16:55:27
-(epstopdf)                    size: 21448 bytes
-(epstopdf)             Command: <repstopdf --outfile=./graphics/logos/tulip-logo-eps-converted-to.pdf ./graphics/logos/tulip-logo.eps>
-(epstopdf)             \includegraphics on input line 248.
-Package epstopdf Info: Output file is already uptodate.
-File: ./graphics/logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
-<use ./graphics/logos/tulip-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./graphics/logos/tulip-logo-eps-converted-to.pdf  used on input line 248.
-(pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
-
-
-Package fancyhdr Warning: \footskip is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.79996pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.79996pt}.
-
-[5])
+l.250 
+      )
 Package epstopdf Info: Source file: <./graphics/logos/tulip-logo.eps>
 (epstopdf)                    date: 2022-06-09 16:53:25
 (epstopdf)                    size: 1059122 bytes
@@ -1434,11 +1371,12 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 (fancyhdr)                Make it at least 14.79996pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
-[6]
+[5]
 No file report-htm.bbl.
-No file report-htm.tdo.
+(./report-htm.tdo)
 \tf@tdo=\write8
 \openout8 = `report-htm.tdo'.
+
 
 
 Package natbib Warning: There were undefined citations.
@@ -1461,7 +1399,7 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 (fancyhdr)                Make it at least 14.79996pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
-[7]
+[6]
 No complaints by nag.
 (./report-htm.aux)
 
@@ -1476,22 +1414,30 @@ Package rerunfilecheck Warning: File `report-htm.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `report-htm.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  C80877CC38F4F3F24A98D85D688CDF61;872.
+(rerunfilecheck)             Before: C80877CC38F4F3F24A98D85D688CDF61;872
+(rerunfilecheck)             After:  EE03B9770A12A8E4BC7F1C88D25638CD;1138.
  ) 
 Here is how much of TeX's memory you used:
- 36459 strings out of 478994
- 707115 string characters out of 5858184
- 1366325 words of memory out of 5000000
- 52926 multiletter control sequences out of 15000+600000
- 415589 words of font info for 127 fonts, out of 8000000 for 9000
+ 36478 strings out of 478994
+ 707253 string characters out of 5858184
+ 1358303 words of memory out of 5000000
+ 52933 multiletter control sequences out of 15000+600000
+ 416021 words of font info for 134 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 133i,15n,134p,639b,978s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report-htm.pdf (7 pages, 227213 bytes).
+ 133i,15n,134p,639b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section*.15} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.18} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.20} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.19} has been referenced but does not exist, replaced by a fixed one
+
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report-htm.pdf (6 pages, 242809 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 30834 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 30890 words of extra memory for PDF output out of 35830 (max. 10000000)
 
