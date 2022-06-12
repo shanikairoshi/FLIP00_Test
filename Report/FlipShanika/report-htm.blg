@@ -4,44 +4,44 @@ The top-level auxiliary file: report-htm.aux
 The style file: plain.bst
 Database file #1: tuliplab.bib
 Database file #2: yourbib.bib
-You've used 6 entries,
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            543 strings with 4986 characters,
-and the built_in function-call counts, 2048 in all, are:
-= -- 204
-> -- 93
+            526 strings with 4655 characters,
+and the built_in function-call counts, 1333 in all, are:
+= -- 130
+> -- 62
 < -- 1
-+ -- 37
-- -- 30
-* -- 147
-:= -- 346
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 32
++ -- 25
+- -- 20
+* -- 88
+:= -- 228
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 74
-empty$ -- 157
-format.name$ -- 30
-if$ -- 421
+cite$ -- 4
+duplicate$ -- 52
+empty$ -- 101
+format.name$ -- 20
+if$ -- 276
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 7
-newline$ -- 33
-num.names$ -- 12
-pop$ -- 29
+int.to.str$ -- 4
+missing$ -- 5
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 22
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 18
 quote$ -- 0
-skip$ -- 54
+skip$ -- 39
 stack$ -- 0
-substring$ -- 145
-swap$ -- 13
+substring$ -- 79
+swap$ -- 11
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
+type$ -- 14
 warning$ -- 0
-while$ -- 22
-width$ -- 7
-write$ -- 67
+while$ -- 14
+width$ -- 5
+write$ -- 45
