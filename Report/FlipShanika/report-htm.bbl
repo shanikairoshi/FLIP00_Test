@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{BJL11J01}
+Gleb Beliakov, Simon James, and Gang Li.
+\newblock Learning choquet-integral-based metrics for semisupervised
+  clustering.
+\newblock {\em Fuzzy Systems, IEEE Transactions on}, 19(3):562--574, 2011.
+
+\bibitem{BL12J01}
+Gleb Beliakov and Gang Li.
+\newblock Improving the speed and stability of the k-nearest neighbors method.
+\newblock {\em Pattern Recognition Letters}, 33(10):1296--1301, 2012.
+
+\bibitem{dong2016moving}
+Jiefang Dong, Chun Deng, Rongrong Li, and Jieyu Huang.
+\newblock Moving low-carbon transportation in xinjiang: Evidence from stirpat
+  and rigid regression models.
+\newblock {\em Sustainability}, 9(1):24, 2016.
+
+\bibitem{farrar1967multicollinearity}
+Donald~E Farrar and Robert~R Glauber.
+\newblock Multicollinearity in regression analysis: the problem revisited.
+\newblock {\em The Review of Economic and Statistics}, pages 92--107, 1967.
+
+\bibitem{seber2012linear}
+George~AF Seber and Alan~J Lee.
+\newblock {\em Linear regression analysis}.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem{uyanik2013study}
+G{\"u}lden~Kaya Uyan{\i}k and Ne{\c{s}}e G{\"u}ler.
+\newblock A study on multiple linear regression analysis.
+\newblock {\em Procedia-Social and Behavioral Sciences}, 106:234--240, 2013.
+
+\end{thebibliography}
